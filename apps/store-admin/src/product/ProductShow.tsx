@@ -21,6 +21,7 @@ export const ProductShow = (props: ShowProps): React.ReactElement => {
         <DateField source="createdAt" label="Created At" />
         <TextField label="Description" source="description" />
         <TextField label="ID" source="id" />
+        <TextField label="Image" source="image" />
         <TextField label="Item Price" source="itemPrice" />
         <TextField label="Name" source="name" />
         <DateField source="updatedAt" label="Updated At" />

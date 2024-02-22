@@ -52,6 +52,17 @@ class Product {
 
   @ApiProperty({
     required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  image!: string | null;
+
+  @ApiProperty({
+    required: false,
     type: Number,
   })
   @IsNumber()
